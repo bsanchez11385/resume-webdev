@@ -417,10 +417,10 @@ header {
     line-height: 25px; }
 
 .module {
-  margin-top: 15px; }
+  margin-top: 12.5px; }
 
 h2 {
-  margin-bottom: 15px; }
+  margin-bottom: 12.5px; }
 
 section .module:nth-of-type(even) {
   text-align: right; }
@@ -429,11 +429,11 @@ section .module:nth-of-type(even) {
   text-align: left; }
 
 .job-name {
-  margin-top: 15px; }
+  margin-top: 12.5px; }
 
 .job-description li,
 .school-description p {
-  margin-top: 15px; }
+  margin-top: 12.5px; }
 
 @media (min-width: 670px) {
   .education {
