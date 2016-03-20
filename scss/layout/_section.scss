@@ -1,0 +1,34 @@
+.module{
+	margin-top: $spacer2;
+}
+h2{
+	text-align: center;
+	margin-bottom: $spacer2;
+}
+.job-name{
+	margin-top: $spacer2;
+}
+.job-description li,
+.school-description p{
+	margin-top: $spacer2;
+}
+.skills ul{
+	max-width: 450px;
+	margin: auto;
+}
+li.left{
+	float: left;
+	clear: right;
+	width: 50%;
+}
+li.right{
+	float: right;
+	width: 50%;
+}
+
+@media #{$brk-narrow}{
+	li.left, li.right {
+		float: none;
+		margin-left: 10%;
+	}
+}
