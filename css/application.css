@@ -373,14 +373,20 @@ a, a:hover, a:active, a:visited, a:link {
 body {
   color: #616961; }
 
+h3 {
+  color: #919191; }
+
 h1 {
   color: #616961; }
 
 h2 {
-  color: #919191; }
+  color: #3fa18e; }
 
-h3 {
-  color: #919191; }
+h4 {
+  color: #A13F52; }
+
+h5 {
+  font-style: italic; }
 
 body {
   padding: 2.5%;
@@ -396,8 +402,13 @@ header {
   margin-top: 15px; }
 
 h2 {
-  text-align: center;
   margin-bottom: 15px; }
+
+section .module:nth-of-type(odd) {
+  text-align: right; }
+
+.job:nth-of-type(even) {
+  text-align: right; }
 
 .job-name {
   margin-top: 15px; }
