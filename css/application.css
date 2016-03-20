@@ -435,16 +435,6 @@ section .module:nth-of-type(even) {
 .school-description p {
   margin-top: 12.5px; }
 
-@media (min-width: 670px) {
-  .education {
-    width: calc(50% - 2 * 2.5%);
-    float: left; } }
-
-@media (min-width: 670px) {
-  .skills {
-    width: calc(50% - 2 * 2.5%);
-    float: right; } }
-
 .skills ul {
   max-width: 450px;
   margin: auto; }
@@ -492,13 +482,5 @@ h3 {
 
 h2 {
   font-size: 1.25rem; }
-
-@media (min-width: 670px) {
-  .education h2 {
-    text-align: center; } }
-
-@media (min-width: 670px) {
-  .skills h2 {
-    text-align: center; } }
 
 /*# sourceMappingURL=application.css.map */
