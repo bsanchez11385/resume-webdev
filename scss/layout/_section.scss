@@ -5,7 +5,7 @@
 h2{
     margin-bottom: $spacer2;
 }
-section .module:nth-of-type(odd){
+section .module:nth-of-type(even){
 	text-align: right;
 }
 
@@ -14,7 +14,7 @@ section .module:nth-of-type(odd){
 
 // Experience
 .job:nth-of-type(even) {
-    text-align: right;
+    text-align: left;
 }
 
 .job-name{
@@ -26,8 +26,20 @@ section .module:nth-of-type(odd){
 }
 
 // Education
+.education{
+    @media #{$brk-2}{
+        width: calc(50% - 2 * #{$sidePadding});
+        float: left;
+    }
+}
 
 // Skills
+.skills{
+    @media #{$brk-2}{
+        width: calc(50% - 2 * #{$sidePadding});
+        float: right;
+    }
+}
 .skills ul{
 	max-width: 450px;
 	margin: auto;
@@ -42,7 +54,7 @@ li.right{
 	width: 50%;
 }
 
-@media #{$brk-narrow}{
+@media #{$brk-skill-toggle}{
 	li.left, li.right {
 		float: none;
 		margin-left: 10%;

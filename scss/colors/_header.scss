@@ -1,3 +1,11 @@
 h1{
 	color: $tertiary-color;
 }
+h3{
+    color: $quartiary-color;
+}
+header{
+    a:hover{
+        text-decoration: underline;
+    }
+}

@@ -4,3 +4,15 @@ body{
 h3{
 	color: $secondary-color;
 }
+.offset-1{
+    color: $offset-1;
+}
+.offset-1a{
+    border-bottom: 1px solid $offset-1;
+}
+.offset-2{
+    color: $offset-2;
+}
+.offset-2a{
+    border-bottom: 1px solid $offset-2;
+}

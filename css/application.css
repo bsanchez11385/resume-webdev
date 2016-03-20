@@ -376,8 +376,26 @@ body {
 h3 {
   color: #919191; }
 
+.offset-1 {
+  color: #A13F52; }
+
+.offset-1a {
+  border-bottom: 1px solid #A13F52; }
+
+.offset-2 {
+  color: #3fa18e; }
+
+.offset-2a {
+  border-bottom: 1px solid #3fa18e; }
+
 h1 {
   color: #616961; }
+
+h3 {
+  color: #A13F52; }
+
+header a:hover {
+  text-decoration: underline; }
 
 h2 {
   color: #3fa18e; }
@@ -404,11 +422,11 @@ header {
 h2 {
   margin-bottom: 15px; }
 
-section .module:nth-of-type(odd) {
+section .module:nth-of-type(even) {
   text-align: right; }
 
 .job:nth-of-type(even) {
-  text-align: right; }
+  text-align: left; }
 
 .job-name {
   margin-top: 15px; }
@@ -416,6 +434,16 @@ section .module:nth-of-type(odd) {
 .job-description li,
 .school-description p {
   margin-top: 15px; }
+
+@media (min-width: 670px) {
+  .education {
+    width: calc(50% - 2 * 2.5%);
+    float: left; } }
+
+@media (min-width: 670px) {
+  .skills {
+    width: calc(50% - 2 * 2.5%);
+    float: right; } }
 
 .skills ul {
   max-width: 450px;
@@ -430,7 +458,7 @@ li.right {
   float: right;
   width: 50%; }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 335px) {
   li.left, li.right {
     float: none;
     margin-left: 10%; } }
@@ -440,21 +468,37 @@ body {
 ul {
   list-style-type: none; }
 
-h3 {
-  font-family: 'Lato',sans-serif;
-  font-weight: 400;
-  font-size: .9rem; }
-
 h1 {
   font-family: 'Lato', sans-serif;
   text-transform: uppercase;
   letter-spacing: 5px;
   line-height: 2.5rem;
   font-size: 3rem; }
-  h1 span {
+  h1 .nls {
     letter-spacing: 0px; }
+  @media screen and (min-width: 550px) {
+    h1 {
+      font-size: 3.5rem;
+      line-height: 3rem;
+      letter-spacing: 7.5px; } }
+
+h3 {
+  font-family: 'Lato',sans-serif;
+  font-weight: 400;
+  font-size: 1rem; }
+  @media screen and (min-width: 550px) {
+    h3 {
+      font-size: 1.2rem; } }
 
 h2 {
   font-size: 1.25rem; }
+
+@media (min-width: 670px) {
+  .education h2 {
+    text-align: center; } }
+
+@media (min-width: 670px) {
+  .skills h2 {
+    text-align: center; } }
 
 /*# sourceMappingURL=application.css.map */

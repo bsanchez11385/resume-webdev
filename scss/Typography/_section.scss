@@ -1,3 +1,21 @@
 h2{
 	font-size: 1.25rem;
 }
+
+// Education
+.education{
+    @media #{$brk-2}{
+        h2{
+            text-align: center;
+        }
+    }
+}
+
+// Skills
+.skills{
+    @media #{$brk-2}{
+        h2{
+            text-align: center;
+        }
+    }
+}
