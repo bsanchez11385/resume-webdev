@@ -396,6 +396,8 @@ h3 {
 
 header a:hover {
   text-decoration: underline; }
+header h6 {
+  float: left; }
 
 h2 {
   color: #3fa18e; }
