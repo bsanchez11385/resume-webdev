@@ -408,6 +408,21 @@ h4 {
 h5 {
   font-style: italic; }
 
+.spacer1 {
+  width: 100%;
+  height: 7.5px;
+  clear: both; }
+
+.spacer2 {
+  width: 100%;
+  height: 12.5px;
+  clear: both; }
+
+.spacer3 {
+  width: 100%;
+  height: 25px;
+  clear: both; }
+
 body {
   padding: 2.5%;
   max-width: 670px;
